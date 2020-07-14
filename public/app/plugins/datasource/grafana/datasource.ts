@@ -5,6 +5,7 @@ import { DataSourceApi, DataSourceInstanceSettings } from '@grafana/data';
 import templateSrv from 'app/features/templating/template_srv';
 
 class GrafanaDatasource extends DataSourceApi<any> {
+  /** @ngInject */
   constructor(instanceSettings: DataSourceInstanceSettings) {
     super(instanceSettings);
   }

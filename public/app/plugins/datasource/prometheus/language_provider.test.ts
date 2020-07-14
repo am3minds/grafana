@@ -1,4 +1,3 @@
-// @ts-nocheck
 import Plain from 'slate-plain-serializer';
 import { Editor as SlateEditor } from 'slate';
 import LanguageProvider from './language_provider';

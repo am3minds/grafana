@@ -1,4 +1,3 @@
-// @ts-nocheck
 import './dashboard_loaders';
 import './ReactContainer';
 import { applyRouteRegistrationHandlers } from './registry';

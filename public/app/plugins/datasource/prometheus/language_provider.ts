@@ -1,4 +1,3 @@
-// @ts-nocheck
 import _ from 'lodash';
 import LRU from 'lru-cache';
 import { Value } from 'slate';

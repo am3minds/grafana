@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 import Plain from 'slate-plain-serializer';
 import { Editor } from '@grafana/slate-react';

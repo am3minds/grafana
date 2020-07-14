@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 import debounce from 'lodash/debounce';
 import sortBy from 'lodash/sortBy';

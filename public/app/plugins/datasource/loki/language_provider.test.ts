@@ -1,4 +1,3 @@
-// @ts-nocheck
 import Plain from 'slate-plain-serializer';
 
 import LanguageProvider, { LABEL_REFRESH_INTERVAL, LokiHistoryItem, rangeToParams } from './language_provider';

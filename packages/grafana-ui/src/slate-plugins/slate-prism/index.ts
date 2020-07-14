@@ -1,4 +1,3 @@
-// @ts-nocheck
 import Prism from 'prismjs';
 import { Block, Text, Decoration } from 'slate';
 import { Plugin } from '@grafana/slate-react';
