@@ -57,10 +57,6 @@ describe('Load App', () => {
       name: 'test',
     };
 
-    // Check that we mocked the import OK
-    const m = await SystemJS.import(modulePath);
-    expect(m.plugin).toBe(app);
-
     const loaded = await importAppPlugin(meta);
     expect(loaded).toBe(app);
     expect(app.meta).toBe(meta);
